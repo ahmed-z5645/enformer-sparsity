@@ -1,0 +1,49 @@
+======================================================================
+CAPACITY-UTILIZATION SUMMARY: enformer  (n_seqs=64, 11 layers x 8 heads)
+======================================================================
+
+[1] Attention entropy + [4] diffuseness (prune candidates)
+  high-entropy AND diffuse heads (top-quartile both): 19 heads
+    L 2 H4: entropy=6.264 nats, 90%-mass frac=0.380
+    L 3 H7: entropy=5.986 nats, 90%-mass frac=0.335
+    L 7 H0: entropy=5.694 nats, 90%-mass frac=0.250
+    L 7 H3: entropy=5.706 nats, 90%-mass frac=0.279
+    L 7 H5: entropy=5.737 nats, 90%-mass frac=0.263
+    L 7 H7: entropy=5.888 nats, 90%-mass frac=0.299
+    L 8 H0: entropy=5.686 nats, 90%-mass frac=0.279
+    L 8 H2: entropy=5.722 nats, 90%-mass frac=0.291
+    L 8 H7: entropy=5.779 nats, 90%-mass frac=0.287
+    L 9 H0: entropy=5.799 nats, 90%-mass frac=0.392
+    L 9 H1: entropy=5.788 nats, 90%-mass frac=0.272
+    L 9 H3: entropy=6.645 nats, 90%-mass frac=0.538
+    L 9 H4: entropy=5.633 nats, 90%-mass frac=0.340
+    L 9 H6: entropy=6.060 nats, 90%-mass frac=0.370
+    L10 H1: entropy=6.620 nats, 90%-mass frac=0.511
+    L10 H2: entropy=6.743 nats, 90%-mass frac=0.570
+    L10 H4: entropy=6.319 nats, 90%-mass frac=0.453
+    L10 H5: entropy=6.775 nats, 90%-mass frac=0.577
+    L10 H6: entropy=5.942 nats, 90%-mass frac=0.326
+  most concentrated/specialized head (likely keep): L0 H0 frac=0.021
+
+[2] Dead MLP channels per layer (threshold = 1.000e-06)
+    layer  0:  14.8% dead
+    layer  1:  14.7% dead
+    layer  2:   9.1% dead
+    layer  3:   7.3% dead
+    layer  4:   5.8% dead
+    layer  5:   4.3% dead
+    layer  6:   3.4% dead
+    layer  7:   2.3% dead
+    layer  8:   0.6% dead
+    layer  9:   0.1% dead
+    layer 10:   0.6% dead
+  highest dead-channel layers: L0(15%), L1(15%), L2(9%)
+
+[3] Residual-stream norm by layer
+    range 5068.6 (L0) .. 6550.9 (L10)
+    trend: grows with depth (5068.6 -> 6550.9)
+
+[non-obvious axes]
+  - mean dead-channel rate 5.7% suggests MLP width is well-used
+  - layers with most diffuse attention overall: L10, L9, L8 (whole-layer attention-pruning candidates)
+======================================================================

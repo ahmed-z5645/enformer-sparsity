@@ -1,0 +1,9 @@
+# virtualenv (also self-ignored by venv's own .venv/.gitignore)
+.venv/
+
+# large reference data — not redistributable, download via run_analysis/UCSC
+data/
+
+# python caches
+__pycache__/
+*.pyc
