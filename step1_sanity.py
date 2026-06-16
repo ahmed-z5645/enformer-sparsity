@@ -10,9 +10,9 @@ device = pick_device("mps")
 log(f"selected device: {device}")
 
 model = load_enformer()
-report = sanity_check(model, device, tol=1e-4)
+report = sanity_check(model, device, rtol=5e-5)
 
 log("=" * 60)
 log("STEP 1 REPORT")
 print(json.dumps(report, indent=2), flush=True)
-log("PASSED" if report["passed"] else "FAILED -- agreement exceeded tolerance")
+log("PASSED" if report["passed"] else "FAILED -- agreement exceeded rtol")
