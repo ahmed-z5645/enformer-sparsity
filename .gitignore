@@ -7,3 +7,8 @@ data/
 # python caches
 __pycache__/
 *.pyc
+
+results/EXPLAINER.md
+results/RESULTS.md
+results/SLIDES.md
+results_pruning/EXPLAINER.md
