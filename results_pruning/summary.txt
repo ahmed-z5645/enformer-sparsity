@@ -1,0 +1,85 @@
+========================================================================
+MAGNITUDE-PRUNING vs FIDELITY SUMMARY (Enformer)
+eval: official test intervals (n=256); accuracy = fidelity to full model
+========================================================================
+
+[attention]  sparsity -> Pearson(human) / Pearson(mouse) / nMSE(human)
+    sparsity=0.000  r_h=1.0000  r_m=1.0000  nmse_h=0.000e+00
+    sparsity=0.050  r_h=1.0000  r_m=1.0000  nmse_h=9.035e-06
+    sparsity=0.100  r_h=0.9999  r_m=0.9999  nmse_h=5.601e-05
+    sparsity=0.150  r_h=0.9998  r_m=0.9998  nmse_h=2.064e-04
+    sparsity=0.200  r_h=0.9994  r_m=0.9994  nmse_h=6.531e-04
+    sparsity=0.250  r_h=0.9986  r_m=0.9986  nmse_h=1.827e-03
+    sparsity=0.300  r_h=0.9971  r_m=0.9969  nmse_h=5.134e-03
+    sparsity=0.350  r_h=0.9948  r_m=0.9943  nmse_h=1.129e-02
+    sparsity=0.400  r_h=0.9906  r_m=0.9895  nmse_h=2.388e-02
+    sparsity=0.450  r_h=0.9832  r_m=0.9809  nmse_h=5.036e-02
+    sparsity=0.500  r_h=0.9719  r_m=0.9677  nmse_h=9.286e-02
+    sparsity=0.550  r_h=0.9574  r_m=0.9510  nmse_h=1.441e-01
+    sparsity=0.600  r_h=0.9421  r_m=0.9336  nmse_h=1.947e-01
+    sparsity=0.650  r_h=0.9282  r_m=0.9180  nmse_h=2.405e-01
+    sparsity=0.700  r_h=0.9140  r_m=0.9022  nmse_h=2.872e-01
+    sparsity=0.750  r_h=0.9007  r_m=0.8876  nmse_h=3.250e-01
+    sparsity=0.800  r_h=0.8919  r_m=0.8782  nmse_h=3.525e-01
+    sparsity=0.850  r_h=0.8857  r_m=0.8716  nmse_h=3.739e-01
+    sparsity=0.900  r_h=0.8822  r_m=0.8688  nmse_h=3.809e-01
+    sparsity=0.950  r_h=0.8811  r_m=0.8689  nmse_h=3.810e-01
+    Pearson(human) drops below 0.99 at sparsity 0.45
+    Pearson(human) drops below 0.95 at sparsity 0.60
+    Pearson(human) drops below 0.90 at sparsity 0.80
+
+[mlp]  sparsity -> Pearson(human) / Pearson(mouse) / nMSE(human)
+    sparsity=0.000  r_h=1.0000  r_m=1.0000  nmse_h=0.000e+00
+    sparsity=0.050  r_h=1.0000  r_m=1.0000  nmse_h=1.721e-07
+    sparsity=0.100  r_h=1.0000  r_m=1.0000  nmse_h=1.522e-06
+    sparsity=0.150  r_h=1.0000  r_m=1.0000  nmse_h=5.869e-06
+    sparsity=0.200  r_h=1.0000  r_m=1.0000  nmse_h=1.610e-05
+    sparsity=0.250  r_h=0.9999  r_m=0.9999  nmse_h=4.174e-05
+    sparsity=0.300  r_h=0.9999  r_m=0.9999  nmse_h=1.025e-04
+    sparsity=0.350  r_h=0.9998  r_m=0.9998  nmse_h=2.033e-04
+    sparsity=0.400  r_h=0.9996  r_m=0.9995  nmse_h=4.295e-04
+    sparsity=0.450  r_h=0.9992  r_m=0.9992  nmse_h=8.322e-04
+    sparsity=0.500  r_h=0.9986  r_m=0.9985  nmse_h=1.652e-03
+    sparsity=0.550  r_h=0.9978  r_m=0.9976  nmse_h=3.221e-03
+    sparsity=0.600  r_h=0.9966  r_m=0.9963  nmse_h=5.426e-03
+    sparsity=0.650  r_h=0.9948  r_m=0.9943  nmse_h=9.001e-03
+    sparsity=0.700  r_h=0.9927  r_m=0.9920  nmse_h=1.371e-02
+    sparsity=0.750  r_h=0.9904  r_m=0.9894  nmse_h=2.041e-02
+    sparsity=0.800  r_h=0.9875  r_m=0.9862  nmse_h=2.839e-02
+    sparsity=0.850  r_h=0.9843  r_m=0.9823  nmse_h=3.568e-02
+    sparsity=0.900  r_h=0.9796  r_m=0.9768  nmse_h=4.483e-02
+    sparsity=0.950  r_h=0.9733  r_m=0.9696  nmse_h=5.786e-02
+    Pearson(human) drops below 0.99 at sparsity 0.80
+    Pearson(human) drops below 0.95 at sparsity >max (never)
+    Pearson(human) drops below 0.90 at sparsity >max (never)
+
+[both]  sparsity -> Pearson(human) / Pearson(mouse) / nMSE(human)
+    sparsity=0.000  r_h=1.0000  r_m=1.0000  nmse_h=0.000e+00
+    sparsity=0.050  r_h=1.0000  r_m=1.0000  nmse_h=3.746e-06
+    sparsity=0.100  r_h=1.0000  r_m=1.0000  nmse_h=2.895e-05
+    sparsity=0.150  r_h=0.9999  r_m=0.9999  nmse_h=9.292e-05
+    sparsity=0.200  r_h=0.9997  r_m=0.9997  nmse_h=2.614e-04
+    sparsity=0.250  r_h=0.9994  r_m=0.9993  nmse_h=7.627e-04
+    sparsity=0.300  r_h=0.9985  r_m=0.9984  nmse_h=2.034e-03
+    sparsity=0.350  r_h=0.9968  r_m=0.9965  nmse_h=5.521e-03
+    sparsity=0.400  r_h=0.9941  r_m=0.9935  nmse_h=1.297e-02
+    sparsity=0.450  r_h=0.9892  r_m=0.9879  nmse_h=2.915e-02
+    sparsity=0.500  r_h=0.9808  r_m=0.9782  nmse_h=6.131e-02
+    sparsity=0.550  r_h=0.9685  r_m=0.9639  nmse_h=1.105e-01
+    sparsity=0.600  r_h=0.9542  r_m=0.9476  nmse_h=1.644e-01
+    sparsity=0.650  r_h=0.9388  r_m=0.9305  nmse_h=2.164e-01
+    sparsity=0.700  r_h=0.9266  r_m=0.9176  nmse_h=2.548e-01
+    sparsity=0.750  r_h=0.9142  r_m=0.9047  nmse_h=2.859e-01
+    sparsity=0.800  r_h=0.9033  r_m=0.8938  nmse_h=3.089e-01
+    sparsity=0.850  r_h=0.8961  r_m=0.8867  nmse_h=3.188e-01
+    sparsity=0.900  r_h=0.8888  r_m=0.8801  nmse_h=3.225e-01
+    sparsity=0.950  r_h=0.8809  r_m=0.8718  nmse_h=3.387e-01
+    Pearson(human) drops below 0.99 at sparsity 0.45
+    Pearson(human) drops below 0.95 at sparsity 0.65
+    Pearson(human) drops below 0.90 at sparsity 0.85
+
+[where pruning lands @ 50% global]
+    layer:     0    1    2    3    4    5    6    7    8    9   10
+    attn :  0.47 0.47 0.46 0.46 0.45 0.46 0.45 0.45 0.44 0.44 0.44
+    mlp  :  0.61 0.64 0.62 0.59 0.54 0.52 0.50 0.47 0.45 0.44 0.46
+========================================================================

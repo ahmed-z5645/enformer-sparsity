@@ -1,0 +1,401 @@
+{
+  "levels": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "targets": [
+    "attention_heads",
+    "mlp_channels"
+  ],
+  "metrics": {
+    "attention_heads": [
+      {
+        "pearson_human": 1.0,
+        "nmse_human": 0.0,
+        "pearson_mouse": 1.0,
+        "nmse_mouse": 0.0,
+        "target": "attention_heads",
+        "amount": 0.0
+      },
+      {
+        "pearson_human": 0.998385052019879,
+        "nmse_human": 0.003230399030596043,
+        "pearson_mouse": 0.9982259897527415,
+        "nmse_mouse": 0.003365064202519107,
+        "target": "attention_heads",
+        "amount": 0.05
+      },
+      {
+        "pearson_human": 0.9923284786848738,
+        "nmse_human": 0.018440218004202313,
+        "pearson_mouse": 0.9917897976005007,
+        "nmse_mouse": 0.01895291398296262,
+        "target": "attention_heads",
+        "amount": 0.1
+      },
+      {
+        "pearson_human": 0.9880730569458305,
+        "nmse_human": 0.03495874818973427,
+        "pearson_mouse": 0.9868792468951385,
+        "nmse_mouse": 0.038158832970141575,
+        "target": "attention_heads",
+        "amount": 0.15
+      },
+      {
+        "pearson_human": 0.9828769490471648,
+        "nmse_human": 0.053710335212700265,
+        "pearson_mouse": 0.9808645096807832,
+        "nmse_mouse": 0.05792282025549617,
+        "target": "attention_heads",
+        "amount": 0.2
+      },
+      {
+        "pearson_human": 0.9805023305100207,
+        "nmse_human": 0.058140284453684986,
+        "pearson_mouse": 0.9784988240552861,
+        "nmse_mouse": 0.062499450059078566,
+        "target": "attention_heads",
+        "amount": 0.25
+      },
+      {
+        "pearson_human": 0.9791665914569142,
+        "nmse_human": 0.062333977864496966,
+        "pearson_mouse": 0.9770120049342044,
+        "nmse_mouse": 0.06674756055708947,
+        "target": "attention_heads",
+        "amount": 0.3
+      },
+      {
+        "pearson_human": 0.9757581576003345,
+        "nmse_human": 0.07048917566023168,
+        "pearson_mouse": 0.9732676675494981,
+        "nmse_mouse": 0.07470872356189397,
+        "target": "attention_heads",
+        "amount": 0.35
+      },
+      {
+        "pearson_human": 0.9686956476001716,
+        "nmse_human": 0.09742888058734474,
+        "pearson_mouse": 0.9648425800684147,
+        "nmse_mouse": 0.1038692817848946,
+        "target": "attention_heads",
+        "amount": 0.4
+      },
+      {
+        "pearson_human": 0.9615411071705924,
+        "nmse_human": 0.11575867427160104,
+        "pearson_mouse": 0.9566270315485074,
+        "nmse_mouse": 0.12229328401531472,
+        "target": "attention_heads",
+        "amount": 0.45
+      },
+      {
+        "pearson_human": 0.9581925070376365,
+        "nmse_human": 0.11875695975644919,
+        "pearson_mouse": 0.9535399502816213,
+        "nmse_mouse": 0.12026302482311264,
+        "target": "attention_heads",
+        "amount": 0.5
+      },
+      {
+        "pearson_human": 0.9521066239326582,
+        "nmse_human": 0.13440817589711232,
+        "pearson_mouse": 0.946881214264636,
+        "nmse_mouse": 0.1343843821033825,
+        "target": "attention_heads",
+        "amount": 0.55
+      },
+      {
+        "pearson_human": 0.9471097071920213,
+        "nmse_human": 0.14438330728018647,
+        "pearson_mouse": 0.9417041359691234,
+        "nmse_mouse": 0.14335571376942569,
+        "target": "attention_heads",
+        "amount": 0.6
+      },
+      {
+        "pearson_human": 0.9390764014310748,
+        "nmse_human": 0.17225967115390245,
+        "pearson_mouse": 0.9326817679684845,
+        "nmse_mouse": 0.16890334138307395,
+        "target": "attention_heads",
+        "amount": 0.65
+      },
+      {
+        "pearson_human": 0.926593345467691,
+        "nmse_human": 0.21803389297811665,
+        "pearson_mouse": 0.9181457952097972,
+        "nmse_mouse": 0.2164855641552388,
+        "target": "attention_heads",
+        "amount": 0.7
+      },
+      {
+        "pearson_human": 0.9207401009861251,
+        "nmse_human": 0.23431807087640472,
+        "pearson_mouse": 0.9113736283006324,
+        "nmse_mouse": 0.2339753025723865,
+        "target": "attention_heads",
+        "amount": 0.75
+      },
+      {
+        "pearson_human": 0.9143178965401394,
+        "nmse_human": 0.2713098948205664,
+        "pearson_mouse": 0.9043646715933202,
+        "nmse_mouse": 0.2698729629989309,
+        "target": "attention_heads",
+        "amount": 0.8
+      },
+      {
+        "pearson_human": 0.913230620560578,
+        "nmse_human": 0.2686142459579754,
+        "pearson_mouse": 0.9023936026216547,
+        "nmse_mouse": 0.26863440848910897,
+        "target": "attention_heads",
+        "amount": 0.85
+      },
+      {
+        "pearson_human": 0.9130389392612134,
+        "nmse_human": 0.2621745964501988,
+        "pearson_mouse": 0.9021307526721067,
+        "nmse_mouse": 0.26129846596711714,
+        "target": "attention_heads",
+        "amount": 0.9
+      },
+      {
+        "pearson_human": 0.9093706066090425,
+        "nmse_human": 0.2733013027809701,
+        "pearson_mouse": 0.8980084410915645,
+        "nmse_mouse": 0.27237373639105206,
+        "target": "attention_heads",
+        "amount": 0.95
+      }
+    ],
+    "mlp_channels": [
+      {
+        "pearson_human": 1.0,
+        "nmse_human": 0.0,
+        "pearson_mouse": 1.0,
+        "nmse_mouse": 0.0,
+        "target": "mlp_channels",
+        "amount": 0.0
+      },
+      {
+        "pearson_human": 0.9999999760791438,
+        "nmse_human": 1.2133234221188837e-08,
+        "pearson_mouse": 0.9999999746544423,
+        "nmse_mouse": 1.283617985443651e-08,
+        "target": "mlp_channels",
+        "amount": 0.05
+      },
+      {
+        "pearson_human": 0.999989377577641,
+        "nmse_human": 7.2961079074054276e-06,
+        "pearson_mouse": 0.999989120042205,
+        "nmse_mouse": 6.958238070213697e-06,
+        "target": "mlp_channels",
+        "amount": 0.1
+      },
+      {
+        "pearson_human": 0.9998430480088233,
+        "nmse_human": 9.001303187980116e-05,
+        "pearson_mouse": 0.9998280632551346,
+        "nmse_mouse": 8.905888793380314e-05,
+        "target": "mlp_channels",
+        "amount": 0.15
+      },
+      {
+        "pearson_human": 0.9994822719768799,
+        "nmse_human": 0.0002955142843761856,
+        "pearson_mouse": 0.9994380105265415,
+        "nmse_mouse": 0.00029013262360251096,
+        "target": "mlp_channels",
+        "amount": 0.2
+      },
+      {
+        "pearson_human": 0.9987996735850334,
+        "nmse_human": 0.0008198904002392237,
+        "pearson_mouse": 0.998746819046691,
+        "nmse_mouse": 0.0008052929136895193,
+        "target": "mlp_channels",
+        "amount": 0.25
+      },
+      {
+        "pearson_human": 0.9972815135096459,
+        "nmse_human": 0.0020366122975385673,
+        "pearson_mouse": 0.9971361176082296,
+        "nmse_mouse": 0.0019742639989308287,
+        "target": "mlp_channels",
+        "amount": 0.3
+      },
+      {
+        "pearson_human": 0.99589917123864,
+        "nmse_human": 0.0043805639162169865,
+        "pearson_mouse": 0.9956118051613189,
+        "nmse_mouse": 0.004301511070313865,
+        "target": "mlp_channels",
+        "amount": 0.35
+      },
+      {
+        "pearson_human": 0.9938937186982203,
+        "nmse_human": 0.007949009914678121,
+        "pearson_mouse": 0.9933564958839215,
+        "nmse_mouse": 0.007791450846562354,
+        "target": "mlp_channels",
+        "amount": 0.4
+      },
+      {
+        "pearson_human": 0.9917605246714079,
+        "nmse_human": 0.011154702454018462,
+        "pearson_mouse": 0.9911446421284071,
+        "nmse_mouse": 0.010959659228219393,
+        "target": "mlp_channels",
+        "amount": 0.45
+      },
+      {
+        "pearson_human": 0.9894525989829117,
+        "nmse_human": 0.014092667736669477,
+        "pearson_mouse": 0.9886887682587678,
+        "nmse_mouse": 0.013904363925642116,
+        "target": "mlp_channels",
+        "amount": 0.5
+      },
+      {
+        "pearson_human": 0.98721959612295,
+        "nmse_human": 0.017004465393547198,
+        "pearson_mouse": 0.9864228366040753,
+        "nmse_mouse": 0.016925476334035818,
+        "target": "mlp_channels",
+        "amount": 0.55
+      },
+      {
+        "pearson_human": 0.9843309402556314,
+        "nmse_human": 0.020351408563245008,
+        "pearson_mouse": 0.9835315644005519,
+        "nmse_mouse": 0.020705009345295317,
+        "target": "mlp_channels",
+        "amount": 0.6
+      },
+      {
+        "pearson_human": 0.9816448649371653,
+        "nmse_human": 0.023606730924912146,
+        "pearson_mouse": 0.9807838831907186,
+        "nmse_mouse": 0.024036176754474257,
+        "target": "mlp_channels",
+        "amount": 0.65
+      },
+      {
+        "pearson_human": 0.9801206345378646,
+        "nmse_human": 0.02759098360051504,
+        "pearson_mouse": 0.9791333740220024,
+        "nmse_mouse": 0.028199727901647986,
+        "target": "mlp_channels",
+        "amount": 0.7
+      },
+      {
+        "pearson_human": 0.9737553972096216,
+        "nmse_human": 0.032500985041520304,
+        "pearson_mouse": 0.9728773802767458,
+        "nmse_mouse": 0.03267982373033212,
+        "target": "mlp_channels",
+        "amount": 0.75
+      },
+      {
+        "pearson_human": 0.9701671431460508,
+        "nmse_human": 0.035357139211900916,
+        "pearson_mouse": 0.9694425082772162,
+        "nmse_mouse": 0.035532513573777444,
+        "target": "mlp_channels",
+        "amount": 0.8
+      },
+      {
+        "pearson_human": 0.9636869484147877,
+        "nmse_human": 0.041592154936137514,
+        "pearson_mouse": 0.9629329870252278,
+        "nmse_mouse": 0.0422564916610611,
+        "target": "mlp_channels",
+        "amount": 0.85
+      },
+      {
+        "pearson_human": 0.955485095542495,
+        "nmse_human": 0.05175038700210863,
+        "pearson_mouse": 0.9549975523156495,
+        "nmse_mouse": 0.05339922107601951,
+        "target": "mlp_channels",
+        "amount": 0.9
+      },
+      {
+        "pearson_human": 0.9282938056170743,
+        "nmse_human": 0.09064922006477505,
+        "pearson_mouse": 0.9279328541308675,
+        "nmse_mouse": 0.09313125748202165,
+        "target": "mlp_channels",
+        "amount": 0.95
+      }
+    ]
+  },
+  "realized_sparsity": {
+    "attention_heads": [
+      0.0,
+      0.045454545454545456,
+      0.10227272727272728,
+      0.14772727272727273,
+      0.20454545454545456,
+      0.25,
+      0.29545454545454547,
+      0.3522727272727273,
+      0.3977272727272727,
+      0.45454545454545453,
+      0.5,
+      0.5454545454545454,
+      0.6022727272727273,
+      0.6477272727272727,
+      0.7045454545454546,
+      0.75,
+      0.7954545454545454,
+      0.8522727272727273,
+      0.8977272727272727,
+      0.9545454545454546
+    ],
+    "mlp_channels": [
+      0.0,
+      0.05001183712121212,
+      0.09999408143939394,
+      0.15000591856060605,
+      0.19998816287878787,
+      0.25,
+      0.3000118371212121,
+      0.3499940814393939,
+      0.4000059185606061,
+      0.4499881628787879,
+      0.5,
+      0.5500118371212122,
+      0.5999940814393939,
+      0.6500059185606061,
+      0.6999881628787878,
+      0.75,
+      0.8000118371212122,
+      0.8499940814393939,
+      0.9000059185606061,
+      0.9499881628787878
+    ]
+  },
+  "eval_set": "official test intervals (n=256)"
+}
